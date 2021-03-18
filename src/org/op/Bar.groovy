@@ -1,7 +1,7 @@
 class Bar {
 	def script
 
-	Foo(script) {
+	Bar(script) {
 		this.script = script
 	}
 
