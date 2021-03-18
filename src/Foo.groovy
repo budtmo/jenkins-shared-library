@@ -6,6 +6,6 @@ class Foo {
 	}
 
 	def printInfo(String message) {
-		script.sh "echo foo -> ${message}"
+		script.sh "echo foo - ${message}"
 	}
 }
