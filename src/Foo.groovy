@@ -1,11 +1,13 @@
-class Foo {
-	def script
+package org
 
-	Foo(script) {
-		this.script = script
+class Foo {
+	String name
+
+	Foo(String name) {
+		this.name = name
 	}
 
-	def printInfo(String message) {
-		script.sh "echo foo - ${message}"
+	String getName() {
+		return name
 	}
 }
